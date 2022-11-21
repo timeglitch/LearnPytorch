@@ -24,7 +24,7 @@ lr = 0.01
 criterion = nn.MSELoss()
 optimizer = torch.optim.SGD(model.parameters(), lr = lr)
 
-num_epochs = 100
+num_epochs = 1000
 for epoch in range(num_epochs):
     #forward and loss
     ypred = model(X)
